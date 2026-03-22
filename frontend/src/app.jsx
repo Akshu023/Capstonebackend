@@ -4,9 +4,9 @@ import Main from "./components/Main";
 import Navbar from "./components/pages/navbar/Navbar";
 import Footer from "./components/pages/footer/Footer";
 //------------------- Css-----------------------
-import "./App.css";
+import "./app.css";
 
-const App = () => {
+const app = () => {
   return (
     <div>
       <Navbar />
@@ -16,4 +16,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default app;
