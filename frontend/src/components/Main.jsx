@@ -1,13 +1,13 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 // ------------Components---------------------------;
-import SignUp from "./auth/signup/SignUp";
-import Login from "./auth/login/Login";
-import Private from "./pages/private/Private";
-import Profile from "./pages/profile/Profile";
-import Products from "./pages/products/Products";
-import AddProduct from "./pages/addproduct/AddProduct";
-import UpdateProduct from "./pages/updateproduct/UpdateProduct";
+import SignUp from "./auth/signup/SignUp.jsx";
+import Login from "./auth/login/Login.jsx";
+import Private from "./pages/private/Private.jsx";
+import Profile from "./pages/profile/Profile.jsx";
+import Products from "./pages/products/Products.jsx";
+import AddProduct from "./pages/addproduct/AddProduc.jsxt";
+import UpdateProduct from "./pages/updateproduct/UpdateProduct.jsx";
 
 const Main = () => {
   return (
