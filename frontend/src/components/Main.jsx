@@ -6,7 +6,7 @@ import Login from "./auth/login/Login.jsx";
 import Private from "./pages/private/Private.jsx";
 import Profile from "./pages/profile/Profile.jsx";
 import Products from "./pages/products/Products.jsx";
-import AddProduct from "./pages/addproduct/AddProduc.jsx";
+import AddProduct from "./pages/addproduct/AddProduct.jsx";
 import UpdateProduct from "./pages/updateproduct/UpdateProduct.jsx";
 
 const Main = () => {
