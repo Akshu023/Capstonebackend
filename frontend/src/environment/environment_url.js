@@ -1,6 +1,6 @@
 import { dev } from "./environment_constant";
 
-const baseUrl = dev;
+const baseUrl = dev + "/";
 
 const url = {
   auth: {
@@ -9,7 +9,8 @@ const url = {
   },
   product: {
     add_product: baseUrl + "add-product",
-    get_product: baseUrl + "get-products"
-  }
+    get_product: baseUrl + "get-products",
+  },
 };
+
 export { url };
