@@ -3,7 +3,7 @@ dotenv.config();
 
 import express from "express";
 import cors from "cors";
-import "./db/config.js";
+import "./config.js";
 import User from "./db/user.js";
 import Product from "./db/product.js";
 
